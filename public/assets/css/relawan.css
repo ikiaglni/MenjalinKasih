@@ -1,0 +1,27 @@
+.wrapper {
+  max-height: 520px;
+  /* border: 1px solid rgb(0, 0, 0); */
+  display: flex;
+  overflow-x: auto;
+}
+
+.wrapper::-webkit-scrollbar {
+  width: 0px;
+}
+
+.wrapper .item {
+  min-width: 300px;
+  border-radius: 20px;
+  height: 400px;
+  line-height: 150px;
+  text-align: center;
+  background-color: #ddd;
+  margin-right: 20px;
+  background-image: linear-gradient(rgba(0,0,0,1), rgba(0,0,0,0));
+}
+
+
+.carousel-inner{
+   opacity: 80%;
+}
+

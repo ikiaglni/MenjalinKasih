@@ -1,0 +1,10 @@
+.nav{
+    top: 0 !important;
+    position: sticky !important;
+    position: -webkit-sticky !important;
+}
+
+.carousel-inner{
+    opacity: 80%;
+ }
+    
