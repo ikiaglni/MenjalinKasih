@@ -28,3 +28,4 @@ Route::get('/relawan', [RelawanController::class,'relawan']);
 Route::get('/donasi', [DonasiController::class,'donasi']);
 Route::get('/masuk', [MasukController::class,'masuk']);
 Route::get('/daftar', [DaftarController::class,'daftar']);
+
