@@ -21,7 +21,7 @@ use App\Http\Controllers\daftar\DaftarController;
 |
 */
 
-Route::get('/beranda', [BerandaController::class,'beranda']);
+Route::get('/', [BerandaController::class,'beranda']);
 Route::get('/produk', [ProdukController::class,'produk']);
 Route::get('/pm', [PmController::class,'pm']);
 Route::get('/relawan', [RelawanController::class,'relawan']);
